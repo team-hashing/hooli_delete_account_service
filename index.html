@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        .email {
+            color: #000000;
+            background: linear-gradient(90deg, transparent 50%, #99ddb6 50%);
+            background-size: 200% 100%;
+            background-position: 100%;
+            animation: colorChange 3s linear infinite, highlight 3s linear infinite;
+        }
+
+
+        @keyframes highlight {
+            0% {
+                background-position: 100%;
+            }
+
+            100% {
+                background-position: -100%;
+            }
+
+            100% {
+                background-position: -100%;
+            }
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Want to delete your Hooli account?</h1>
+        <p>Just send an email to <span class="email">teamhashing@gmail.com</span> requesting the deletion of your data.
+        </p>
+    </div>
+</body>
+
+</html>
